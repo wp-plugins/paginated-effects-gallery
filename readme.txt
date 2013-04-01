@@ -56,7 +56,9 @@ This section will be updated when there is sufficient feedback for the plugin.
 == Screenshots ==
 
 1. The Paginated Effects Gallery in action. Edit the CSS and style the pagination to be super slick.
+
 2. The options associated with the plugin. Toggle the settings to get your desired look.
+
 3. Add the shortcode [peg] to each page where you have a gallery for it to be paginated
 
 == Changelog ==
