@@ -1,0 +1,14 @@
+.current-page {
+	color: black;
+	font-weight: bold;
+}
+
+.pagination span {
+	margin-right: 8px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.pagination {
+	clear: both;
+}		
