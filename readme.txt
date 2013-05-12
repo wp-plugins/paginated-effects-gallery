@@ -4,7 +4,7 @@ Donate link: http://profiles.wordpress.org/nadeem-kelly
 Tags: pagination, gallery, jQuery
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,3 +65,6 @@ This section will be updated when there is sufficient feedback for the plugin.
 
 = 0.1 =
 * Initial release
+
+= 0.2 =
+* Fixed bug for displaying multiple galleries on the same page
