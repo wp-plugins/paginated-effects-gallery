@@ -3,7 +3,7 @@
 Plugin Name: Paginated Effects Gallery
 Plugin URI: http://profiles.wordpress.org/nadeem-kelly
 Description: A simple, light and easy-to-use plugin that adds jQuery pagination to the standard wordpress gallery with cool jquery effects.
-Version: 0.2
+Version: 0.3
 Author: Nadeem Kelly
 Author URI: http://profiles.wordpress.org/nadeem-kelly
 License: GPL2
@@ -74,7 +74,7 @@ function add_this_script_footer() { ?>
 					$( galleryId ).parent().after( "<div id='peg-" +  count +"' class='pagination'>" + html + "</div>" );
 					
 					//pagination callback function
-					$( "#peg-" + count ).find( "[id^=pagination]" ).live( "click", function() {								
+					$( "#peg-" + count ).on( "click", "span", function() {							
 						var pagination_id = $( this ).attr( "id" ).substr( 11 );						
 						var sliceFrom = 0;						
 						
