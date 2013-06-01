@@ -74,7 +74,7 @@ function add_this_script_footer() { ?>
 					$( galleryId ).parent().after( "<div id='peg-" +  count +"' class='pagination'>" + html + "</div>" );
 					
 					//pagination callback function
-					$( "#peg-" + count ).find( "[id^=pagination]" ).live( "click", function() {								
+					$( "#peg-" + count ).on( "click", "span", function() {							
 						var pagination_id = $( this ).attr( "id" ).substr( 11 );						
 						var sliceFrom = 0;						
 						
