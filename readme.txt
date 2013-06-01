@@ -68,3 +68,6 @@ This section will be updated when there is sufficient feedback for the plugin.
 
 = 0.2 =
 * Fixed bug for displaying multiple galleries on the same page
+
+= 0.3 =
+* Removed deprecated jQuery method
