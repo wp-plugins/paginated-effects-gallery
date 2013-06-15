@@ -4,7 +4,7 @@ Donate link: http://profiles.wordpress.org/nadeem-kelly
 Tags: pagination, gallery, jQuery
 Requires at least: 3.5.1
 Tested up to: 3.5.1
-Stable tag: 0.3
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,8 @@ A simple, light and easy-to-use plugin that adds jQuery pagination to the standa
 * Apply to just one or many galleries on your website
 
 Once you are happy with your gallery animations, edit the CSS to get your desired visuals for the pagination links.
+
+* Now includes the jQuery UI project
 
 == Installation ==
 
@@ -70,4 +72,8 @@ This section will be updated when there is sufficient feedback for the plugin.
 * Fixed bug for displaying multiple galleries on the same page
 
 = 0.3 =
-* Removed deprecated jQuery method
+* Fixes for deprecated jQuery calls
+
+= 0.4 =
+* Fixes for users experiencing problems with the effects settings
+* Included jQuery UI project
